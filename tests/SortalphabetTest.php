@@ -18,7 +18,7 @@ class SortalphabetTest extends TestCase
         $this->assertTrue(true);
     }
 
-    public function testalpha1(){
+    /*public function testalpha1(){
     	$alpha = new Sortalphabet();
     	$hasil = $alpha->stringorder("imam");
     	$this->assertEquals("aim", $hasil);
@@ -77,29 +77,29 @@ class SortalphabetTest extends TestCase
     	$hasil = $alpha->stringorder("       imam        ");
     	$this->assertEquals("aim", $hasil);
     }
-
+*/
 	/**
 	 * @expectedException Exception
 	*/
-    public function testalphaErr1(){
+   /* public function testalphaErr1(){
     	$alpha = new Sortalphabet();
     	$hasil = $alpha->stringorder("Imam Ramadhan!");
-    }
+    }*/
 
 	/**
 	 * @expectedException Exception
 	*/
-    public function testalphaErr2(){
+   /* public function testalphaErr2(){
     	$alpha = new Sortalphabet();
     	$hasil = $alpha->stringorder("Imam Ramadhan123");
-    }
+    }*/
 
 	/**
 	 * @expectedException Exception
 	*/
-    public function testalphaErr5(){
+    /*public function testalphaErr5(){
     	$alpha = new Sortalphabet();
     	$hasil = $alpha->stringorder("Imam Ramadhan@");
-    }
+    }*/
 
 }
